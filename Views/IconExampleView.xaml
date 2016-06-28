@@ -20,7 +20,7 @@
     </UserControl.Resources>
     
     <ScrollViewer HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Visible">
-        <ItemsControl x:Name="IconsControl" Grid.IsSharedSizeScope="True" Background="Aquamarine">
+        <ItemsControl x:Name="IconsControl" Grid.IsSharedSizeScope="True">
             <ItemsControl.ItemsPanel>
                 <ItemsPanelTemplate>
                     <WrapPanel />
