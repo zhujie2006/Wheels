@@ -1,0 +1,13 @@
+﻿<Window x:Class="Wheels.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:views="clr-namespace:Wheels.Views"
+        Title="WPF Common Wheels" Height="640" Width="860">
+    <Grid>
+        <TabControl>
+            <TabItem Header="Icon8">
+                <views:IconExampleView/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
